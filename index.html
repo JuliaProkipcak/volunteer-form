@@ -11,8 +11,44 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 <body>
+  <section>
 
+    <div>
+      <h1>Volunteer Sign-up</h1>
+      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
 
+    <form method="POST" action="https://formspree.io/prok0018@algonquinlive.com">
 
-
+      <fieldset class="unit xs-1 s-1 m-1 l-1">
+          <legend class="not-bold italic giga push-3-4">Personal details</legend>
+          <div class="grid">
+          <div class="unit">
+            <label for="name">Full name</label>
+            <input id="name" required>
+            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          </div>
+          <div class="unit">
+            <label for="nickname">What should we call you?</label>
+            <input id="nickname" required>
+            <p>What all your friends call you, e.g. “Liz”.</p>
+          </div>
+          <div class="unit">
+            <label for="date">Date of birth</label>
+            <input id="date" type="date" required>
+          </div>
+          <div class="unit">
+            <label for="size">T-shirt size</label>
+            <select id="size" name="size">
+              <option>Fitted: XS</option>
+              <option>Fitted: S</option>
+              <option>Fitted: M</option>
+              <option>Fitted: L</option>
+              <option>Fitted: XL</option>
+              <option>Straight-cut: XS</option>
+              <option>Straight-cut: S</option>
+              <option>Straight-cut: M</option>
+              <option>Straight-cut: L</option>
+              <option>Straight-cut: XL</option>
+            </select>
 </body>
